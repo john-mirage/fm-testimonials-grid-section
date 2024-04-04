@@ -1,0 +1,103 @@
+.testimonial {
+  border-radius: 0.5rem;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
+  padding: 1.63rem 2rem 2rem 2rem;
+}
+
+.testimonial--purple {
+  background-image: url("/bg-pattern-quotation.svg");
+  background-position: right 1.5rem top;
+  background-repeat: no-repeat;
+  background-color: var(--color-purple);
+}
+
+.testimonial--purple .testimonial__author-image {
+  border: 2px solid var(--color-purple-border);
+}
+
+.testimonial--purple .testimonial__author-name {
+  color: var(--color-on-purple);
+}
+
+.testimonial--purple .testimonial__author-state {
+  color: var(--color-on-purple);
+}
+
+.testimonial--purple .testimonial__title {
+  color: var(--color-on-purple);
+}
+
+.testimonial--purple .testimonial__content {
+  color: var(--color-on-purple-variant);
+}
+
+.testimonial--grey {
+  background-color: var(--color-grey);
+  color: var(--color-on-grey);
+}
+
+.testimonial--white {
+  background-color: var(--color-white);
+  color: var(--color-on-white);
+}
+
+.testimonial--dark-grey {
+  background-color: var(--color-dark-grey);
+}
+
+.testimonial--dark-grey .testimonial__author-image {
+  border: 2px solid var(--color-dark-grey-border);
+}
+
+.testimonial--dark-grey .testimonial__author-name {
+  color: var(--color-on-dark-grey);
+}
+
+.testimonial--dark-grey .testimonial__author-state {
+  color: var(--color-on-dark-grey);
+}
+
+.testimonial--dark-grey .testimonial__title {
+  color: var(--color-on-dark-grey-variant);
+}
+
+.testimonial--dark-grey .testimonial__content {
+  color: var(--color-on-dark-grey);
+}
+
+.testimonial__author {
+  margin-bottom: 1.13rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.06rem;
+}
+
+.testimonial__author-image {
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 9999px;
+  box-sizing: content-box;
+}
+
+.testimonial__author-name {
+  margin-bottom: 0.25rem;
+}
+
+.testimonial__author-state {
+  opacity: 0.5;
+}
+
+.testimonial__title {
+  margin-bottom: 1rem;
+}
+
+.testimonial__content {
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 73.375rem) {
+  .testimonial--purple {
+    background-position: right 5rem top;
+  }
+}

@@ -1,0 +1,48 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 4.44rem;
+  padding-bottom: 4.44rem;
+  background-color: var(--color-background);
+}
+
+.page__container {
+  width: 100%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 40rem) {
+  .page__container {
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .page__container {
+    max-width: 48rem;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .page {
+    padding-top: 10.25rem;
+    padding-bottom: 10.25rem;
+  }
+
+  .page__container {
+    max-width: 64rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 73.375rem) {
+  .page__container {
+    max-width: 73.375rem;
+  }
+}

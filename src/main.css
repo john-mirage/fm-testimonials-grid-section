@@ -1,0 +1,26 @@
+@import url("./styles/reset.css");
+
+@import url("./styles/components/page.css");
+@import url("./styles/components/grid.css");
+@import url("./styles/components/testimonial.css");
+@import url("./styles/components/typo.css");
+
+:root {
+  --color-background: hsl(210, 46%, 95%);
+
+  --color-purple: hsl(263, 55%, 52%);
+  --color-on-purple: hsl(0, 0%, 100%);
+  --color-on-purple-variant: hsl(0, 0%, 81%);
+  --color-purple-border: hsl(264, 82%, 70%);
+
+  --color-grey: hsl(217, 19%, 35%);
+  --color-on-grey: hsl(0, 0%, 100%);
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-on-white: hsl(217, 19%, 35%);
+
+  --color-dark-grey: hsl(219, 29%, 14%);
+  --color-on-dark-grey: hsl(0, 0%, 100%);
+  --color-on-dark-grey-variant: hsl(210, 46%, 95%);
+  --color-dark-grey-border: hsl(263, 55%, 52%);
+}

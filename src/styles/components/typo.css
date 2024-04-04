@@ -1,0 +1,33 @@
+.typo {
+  --_typo-font-stack-fallback: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  font-family: "Barlow Semi Condensed", var(--_typo-font-stack-fallback);
+}
+
+.typo--heading-md {
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.typo--heading-sm {
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.8125rem; /* 100% */
+}
+
+.typo--body-md {
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.125rem; /* 138.462% */
+}
+
+.typo--body-sm {
+  font-size: 0.6875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.6875rem; /* 100% */
+}
