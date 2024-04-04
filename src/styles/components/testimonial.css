@@ -96,7 +96,11 @@
   opacity: 0.7;
 }
 
-@media screen and (min-width: 73.375rem) {
+@media screen and (min-width: 64rem) {
+  .testimonial {
+    padding: 1.63rem 2rem 1.63rem 2rem;
+  }
+
   .testimonial--purple {
     background-position: right 5rem top;
   }
